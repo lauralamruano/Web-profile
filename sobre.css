@@ -32,8 +32,8 @@ body {
   }
   
 h1 {
-    margin-top: 0;
     color: rgb(226, 47, 83);
+    font-family: serif;
   }
 
 .nav-container {

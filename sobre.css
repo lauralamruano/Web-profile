@@ -1,3 +1,7 @@
+:root{
+  --primary-color: rgb(226, 47, 83);
+}
+
 html{
   font-size: 62.5%;
 }
@@ -37,12 +41,12 @@ body {
   }
   
 h1 {
-    color: rgb(226, 47, 83);
+    color: var(--primary-color);
     font-family: serif;
   }
 
 .nav-container {
-    color: rgb(226, 47, 83);
+    color: var(--primary-color);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -66,14 +70,14 @@ h1 {
   
   a {
     text-decoration: none;
-    color: rgb(226, 47, 83);
+    color: var(--primary-color);
   }
   a:active{
     color: #ffffff;
   }
 
 hr{
-  border-bottom: rgb(226, 47, 83);;
+  border-bottom: var(--primary-color);
   width: 100%;
   height: 0;
 }

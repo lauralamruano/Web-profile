@@ -59,6 +59,9 @@ a {
   text-decoration: none;
   color: rgb(226, 47, 83);
 }
+a:active{
+  color: #ffffff;
+}
 
 .lenguajes,
 .herramientas,

@@ -63,11 +63,7 @@ a:active{
   color: #ffffff;
 }
 
-.lenguajes,
-.herramientas,
-.sistemas,
-.bd,
-.idiomas {
+.main-container h2 {
   display: flex;
   flex-direction: column;
   list-style: none;

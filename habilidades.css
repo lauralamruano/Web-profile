@@ -76,18 +76,7 @@ a:active{
   margin-top: 4%;
 }
 
-.html,
-.css,
-.javascript,
-.python,
-.dart,
-.android,
-.flutter,
-.git,
-.excel,
-.postman,
-.windows,
-.vscode {
+.main-container img{
   max-width: 24px;
   max-height: 24px;
   margin-right: 16px;

@@ -63,6 +63,9 @@ h1 {
     text-decoration: none;
     color: rgb(226, 47, 83);
   }
+  a:active{
+    color: #ffffff;
+  }
 
 hr{
   border-bottom: rgb(226, 47, 83);;

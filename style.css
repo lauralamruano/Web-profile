@@ -81,7 +81,9 @@ a {
   text-decoration: none;
   color: rgb(226, 47, 83);
 }
-
+a:active{
+  color: #ffffff;
+}
 .hola-container {
   margin-top: 0%;
 }

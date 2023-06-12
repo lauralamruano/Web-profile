@@ -106,3 +106,19 @@ hr {
 h2{
   margin-left: 3rem;
 }
+
+@media (min-width: 600px){
+  .about-me{
+    flex-direction: column;
+    padding: 1rem 0rem;
+  }
+  .page-container{
+    flex-direction: row;
+  }
+  .main-container{
+    margin-left: 0;
+  }
+}
+
+
+

@@ -44,7 +44,6 @@ h1 {
   color: var(--primary-color);
   margin-bottom: 0%;
   font-family: serif;
-  margin-left: 1rem;
 }
 
 .image-container {
@@ -124,4 +123,23 @@ a:active{
   margin-right: 1.6rem;
   max-width: 3rem;
   max-height: 3rem;
+}
+
+@media (min-width: 600px){
+  .about-me{
+    flex-direction: column;
+    padding: 1rem 0rem;
+  }
+  .page-container{
+    flex-direction: row;
+  }
+  .image-container{
+    margin-right: 5rem;
+  }
+}
+
+@media (min-width: 800px){
+  .main-container{
+    max-width: 52rem;
+  }
 }

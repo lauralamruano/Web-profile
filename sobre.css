@@ -42,7 +42,7 @@ body {
   
 h1 {
     color: var(--primary-color);
-    font-family: serif;
+    font-family: 'Roboto Slab', serif;
   }
 
 .nav-container {
@@ -69,7 +69,8 @@ h1 {
   }
   
   .about-me a {
-    margin-right: 2rem;  
+    margin-right: 2rem; 
+    padding: 0rem 2rem;   
   }
   
   a {
@@ -88,6 +89,11 @@ hr{
 
 h2{
   margin-left: 3rem;
+}
+
+.active-link{
+  background: #3b3b3b;
+  border-radius: 40rem;
 }
 
 @media (min-width: 600px){
